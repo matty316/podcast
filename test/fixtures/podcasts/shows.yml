@@ -1,0 +1,31 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  email: MyString
+  title: MyString
+  description: MyText
+  language: MyString
+  copyright: MyString
+  last_build_date: 2016-12-06 21:17:30
+  explicit: false
+  author: MyString
+  summary: MyText
+  subtitle: MyString
+  primary_category: MyString
+  secondary_category: MyString
+
+two:
+  name: MyString
+  email: MyString
+  title: MyString
+  description: MyText
+  language: MyString
+  copyright: MyString
+  last_build_date: 2016-12-06 21:17:30
+  explicit: false
+  author: MyString
+  summary: MyText
+  subtitle: MyString
+  primary_category: MyString
+  secondary_category: MyString

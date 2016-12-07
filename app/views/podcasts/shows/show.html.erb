@@ -1,0 +1,69 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @show.name %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @show.email %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @show.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @show.description %>
+</p>
+
+<p>
+  <strong>Language:</strong>
+  <%= @show.language %>
+</p>
+
+<p>
+  <strong>Copyright:</strong>
+  <%= @show.copyright %>
+</p>
+
+<p>
+  <strong>Last build date:</strong>
+  <%= @show.last_build_date %>
+</p>
+
+<p>
+  <strong>Explicit:</strong>
+  <%= @show.explicit %>
+</p>
+
+<p>
+  <strong>Author:</strong>
+  <%= @show.author %>
+</p>
+
+<p>
+  <strong>Summary:</strong>
+  <%= @show.summary %>
+</p>
+
+<p>
+  <strong>Subtitle:</strong>
+  <%= @show.subtitle %>
+</p>
+
+<p>
+  <strong>Primary category:</strong>
+  <%= @show.primary_category %>
+</p>
+
+<p>
+  <strong>Secondary category:</strong>
+  <%= @show.secondary_category %>
+</p>
+
+<%= link_to 'Edit', edit_show_path(@show) %> |
+<%= link_to 'Back', shows_path %>
